@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.boardback{
+    background-color: brown;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.gridview{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.element{
+    background-color: yellow;
+    padding-top: 100%;
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.square{
+    height: 100%;
+    font-size: 400%;
+    padding: 10%;
+}
+
+@media(min-width:400px){
+    .square{
+        font-size: 5rem;
+    }
+}
