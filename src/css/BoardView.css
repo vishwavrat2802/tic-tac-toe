@@ -8,6 +8,7 @@
     background-color: brown;
     max-width: 500px;
     margin: auto;
+    margin-top: 90px;
     
 }
 .gridview{
@@ -34,6 +35,15 @@
     height: 100%;
     font-size: 400%;
     padding: 10%;
+}
+
+.message{
+    margin: auto;
+}
+.players{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 60px;
 }
 
 @media(min-width:400px){
